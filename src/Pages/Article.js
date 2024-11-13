@@ -37,12 +37,12 @@ const Article = () => {
     // Save the article ID as an integer to localStorage
     localStorage.setItem("editArticleId", id);
     // Redirect to the AddArticle page
-    window.location.href = "/SEF-Academy-Training/AddArticle";
+    window.location.href = "/SEF-Academy-Training/addArticle/";
   };
   const handleCreateNewArticle = () => {
     // Optional: Clear out previous data in localStorage if needed
     localStorage.removeItem("editArticleId");
-    navigate("/SEF-Academy-Training/addarticle"); // Navigate to AddArticle page
+    navigate("/SEF-Academy-Training/addarticle/"); // Navigate to AddArticle page
   };
   const handleDelete = (id) => {
     let existingData = JSON.parse(localStorage.getItem("articleData")) || [];
