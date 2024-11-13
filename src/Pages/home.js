@@ -43,7 +43,7 @@ const Home = () => {
                   <NavLink
                     className="NOTA"
                     onClick={() => {
-                      navigate(`/Business/${minTimeArticle1.id}`);
+                      navigate(`/SEF-Academy-Training/Business/${minTimeArticle1.id}`);
                       window.scrollTo(0, 0);
                     }}
                   >
@@ -66,7 +66,7 @@ const Home = () => {
                   <NavLink
                     className="NOTA2"
                     onClick={() => {
-                      navigate(`/Business/${minTimeArticle2.id}`);
+                      navigate(`/SEF-Academy-Training/Business/${minTimeArticle2.id}`);
                       window.scrollTo(0, 0);
                     }}
                   >
@@ -85,7 +85,7 @@ const Home = () => {
                   <NavLink
                     className="NOTA3"
                     onClick={() => {
-                      navigate(`/Business/${minTimeArticle3.id}`);
+                      navigate(`/SEF-Academy-Training/Business/${minTimeArticle3.id}`);
                       window.scrollTo(0, 0);
                     }}
                   >
@@ -133,7 +133,7 @@ const Home = () => {
                                 "selectedArticleId",
                                 article.id
                               );
-                              navigate(`/Business/${article.id}`);
+                              navigate(`/SEF-Academy-Training/Business/${article.id}`);
                               window.scrollTo(0, 0);
                             }}
                           >
@@ -167,7 +167,7 @@ const Home = () => {
                     <Button
                       variant="primary"
                       onClick={() => {
-                        navigate(`/Business/${article.id}`);
+                        navigate(`/SEF-Academy-Training/Business/${article.id}`);
                         window.scrollTo(0, 0);
                       }}
                     >

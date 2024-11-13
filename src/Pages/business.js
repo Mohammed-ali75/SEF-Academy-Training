@@ -46,7 +46,7 @@ function Business() {
                   <NavLink
                     className="NOTA"
                     onClick={() => {
-                      navigate(`/Business/${minTimeArticle1.id}`);
+                      navigate(`/SEF-Academy-Training/Business/${minTimeArticle1.id}`);
                       window.scrollTo(0, 0);
                     }}
                   >
@@ -73,7 +73,7 @@ function Business() {
                         "selectedArticleId",
                         minTimeArticle4.id
                       );
-                      navigate(`/Business/${minTimeArticle4.id}`);
+                      navigate(`/SEF-Academy-Training/Business/${minTimeArticle4.id}`);
                       window.scrollTo(0, 0);
                     }}
                   >
@@ -96,7 +96,7 @@ function Business() {
                         "selectedArticleId",
                         minTimeArticle5.id
                       );
-                      navigate(`/Business/${minTimeArticle5.id}`);
+                      navigate(`/SEF-Academy-Training/Business/${minTimeArticle5.id}`);
                       window.scrollTo(0, 0);
                     }}
                   >
@@ -144,7 +144,7 @@ function Business() {
                                 "selectedArticleId",
                                 article.id
                               );
-                              navigate(`/Business/${article.id}`);
+                              navigate(`/SEF-Academy-Training/Business/${article.id}`);
                               window.scrollTo(0, 0);
                             }}
                           >
@@ -178,7 +178,7 @@ function Business() {
                     <Button
                       variant="primary"
                       onClick={() => {
-                        navigate(`/Business/${article?.id}`);
+                        navigate(`/SEF-Academy-Training/Business/${article?.id}`);
                         window.scrollTo(0, 0);
                       }}
                     >
