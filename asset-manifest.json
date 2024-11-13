@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/SEF-Academy-Training/static/css/main.086a32f5.css",
-    "main.js": "/SEF-Academy-Training/static/js/main.702123a1.js",
+    "main.js": "/SEF-Academy-Training/static/js/main.610e7674.js",
     "static/js/952.cc8f03f6.chunk.js": "/SEF-Academy-Training/static/js/952.cc8f03f6.chunk.js",
     "static/js/453.a9fd69c4.chunk.js": "/SEF-Academy-Training/static/js/453.a9fd69c4.chunk.js",
     "static/media/main_background.jpg": "/SEF-Academy-Training/static/media/main_background.04f65620805223b2bdf3.jpg",
@@ -10,12 +10,12 @@
     "static/media/seff_logo_black.jpg": "/SEF-Academy-Training/static/media/seff_logo_black.3da9ca9ed292f52d921f.jpg",
     "index.html": "/SEF-Academy-Training/index.html",
     "main.086a32f5.css.map": "/SEF-Academy-Training/static/css/main.086a32f5.css.map",
-    "main.702123a1.js.map": "/SEF-Academy-Training/static/js/main.702123a1.js.map",
+    "main.610e7674.js.map": "/SEF-Academy-Training/static/js/main.610e7674.js.map",
     "952.cc8f03f6.chunk.js.map": "/SEF-Academy-Training/static/js/952.cc8f03f6.chunk.js.map",
     "453.a9fd69c4.chunk.js.map": "/SEF-Academy-Training/static/js/453.a9fd69c4.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.086a32f5.css",
-    "static/js/main.702123a1.js"
+    "static/js/main.610e7674.js"
   ]
 }
