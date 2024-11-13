@@ -14,7 +14,7 @@ function Header() {
       <Navbar expand="lg" className="bg-body-tertiary0">
         <Container className="Container0">
           <Nav>
-            <Nav.Link href="../SEF-Academy-Training/Article">Admin Panel</Nav.Link>
+            <Nav.Link href="/SEF-Academy-Training/Article/">Admin Panel</Nav.Link>
           </Nav>
         </Container>
       </Navbar>
@@ -61,7 +61,7 @@ function Header() {
                     </NavDropdown>
                   </Col>
                   <Col xs="auto">
-                    <Navbar.Brand href="../SEF-Academy-Training/Business">business</Navbar.Brand>
+                    <Navbar.Brand href="/SEF-Academy-Training/Business/">business</Navbar.Brand>
                   </Col>
                   <Col xs="auto">
                     <Navbar.Brand href="#home">security</Navbar.Brand>

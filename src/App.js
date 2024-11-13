@@ -24,10 +24,10 @@ function App() {
         <Header />
         <Routes>
           <Route path="/SEF-Academy-Training/" element={<Home />} />
-          <Route path="/SEF-Academy-Training/Business" element={<Business />} />
-          <Route path="SEF-Academy-Training/Business/:id" element={<ViewArticle />} />
-          <Route path="/SEF-Academy-Training/AddArticle" element={<AddArticle />} />
-          <Route path="/SEF-Academy-Training/Article" element={<Article />} />
+          <Route path="/SEF-Academy-Training/Business/" element={<Business />} />
+          <Route path="SEF-Academy-Training/Business/:id/" element={<ViewArticle />} />
+          <Route path="/SEF-Academy-Training/AddArticle/" element={<AddArticle />} />
+          <Route path="/SEF-Academy-Training/Article/" element={<Article />} />
         </Routes>
         <End />
       </Router>
